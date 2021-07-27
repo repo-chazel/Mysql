@@ -1,0 +1,16 @@
+MongoDB community
+
+mongod 
+
+    server on
+
+
+mongo 
+
+    > use items  
+
+    > db.item.insertOne({name: "coffee", price: 1.00}) 
+
+    > db.item.find()
+        
+        { "_id" : ObjectId("", "name" : "coffee", "price" : 1.00)}
