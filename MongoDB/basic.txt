@@ -1,11 +1,12 @@
-MongoDB community
-
-mongod 
-
-    server on
+MongoDB community  
 
 
-mongo 
+sudo mongod --port 27017
+
+    waiting for connections on port 27017(default port)
+
+
+mongo // mongo --port 27017
 
     > use items  
 
@@ -13,4 +14,4 @@ mongo
 
     > db.item.find()
         
-        { "_id" : ObjectId("", "name" : "coffee", "price" : 1.00)}
+        { "_id" : ObjectId(""), "name" : "coffee", "price" : 1.00)}
